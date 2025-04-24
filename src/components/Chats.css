@@ -1,0 +1,35 @@
+.chats{
+    position: absolute;
+    top: 40px;
+    left: 364px;
+    width: 853px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    
+}
+
+.chat-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.chat-top-bar{
+    height: 40px;
+    background-color: #333;
+    color: white;
+    /* width: 60vh; */
+}
+.call-icon{
+    color: white;
+}
+.top-button{
+    border: 0px;
+    background-color: #585858;
+    width: 45px;
+}
+.top-button:hover{
+    border: 0px;
+    background-color: rgb(151, 150, 150);
+}

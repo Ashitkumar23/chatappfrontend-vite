@@ -1,0 +1,9 @@
+.frinds{
+    background-color: gray;
+    width: 20%;
+    height: 95vh;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: -1;
+}
