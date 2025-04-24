@@ -26,57 +26,52 @@ function Registeruser() {
                     <div data-mdb-input-init className="form-outline mb-4">
                       <input
                         type="text"
-                        id="form3Example1cg"
+                        placeholder="Full Name"
+                        required
+                        id="fullname"
                         className="form-control form-control-lg"
                       />
-                      <label className="form-label" htmlFor="form3Example1cg">
-                        Your Name
-                      </label>
+                      
                     </div>
 
                     <div data-mdb-input-init className="form-outline mb-4">
                       <input
                         type="text"
-                        id="form3Example1cg"
+                        id="username"
+                        placeholder="User Name"
+                        required
                         className="form-control form-control-lg"
                       />
-                      <label className="form-label" htmlFor="form3Example1cg">
-                        username
-                      </label>
+                      
                     </div>
 
                     <div data-mdb-input-init className="form-outline mb-4">
                       <input
                         type="email"
-                        id="form3Example3cg"
+                        id="email"
+                        required
+                        placeholder="Email"
                         className="form-control form-control-lg"
                       />
-                      <label className="form-label" htmlFor="form3Example3cg">
-                        Your Email
-                      </label>
                     </div>
 
                     <div data-mdb-input-init className="form-outline mb-4">
                       <input
                         type="password"
-                        id="form3Example4cg"
+                        id="password"
                         className="form-control form-control-lg"
+                        placeholder="Password"
+                        required
                       />
-                      <label className="form-label" htmlFor="form3Example4cg">
-                        Password
-                      </label>
                     </div>
 
-                    <div data-mdb-input-init className="form-outline mb-4">
+                    {/* <div data-mdb-input-init className="form-outline mb-4">
                       <input
                         type="password"
-                        id="form3Example4cdg"
+                        id=""
                         className="form-control form-control-lg"
                       />
-                      <label className="form-label" htmlFor="form3Example4cdg">
-                        Repeat your password
-                      </label>
-                    </div>
+                    </div> */}
 
                     <div className="form-check d-flex justify-content-center mb-5">
                       <input
@@ -98,7 +93,7 @@ function Registeruser() {
 
                     <div className="d-flex justify-content-center">
                       <button
-                        type="button"
+                        type="submit"
                         data-mdb-button-init
                         data-mdb-ripple-init
                         className="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
